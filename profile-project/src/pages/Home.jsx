@@ -44,7 +44,7 @@ export default function Home() {
           className="text-xs tracking-[0.4em] uppercase mb-4"
           style={{ color: '#D4A853', fontFamily: 'Outfit, sans-serif', fontWeight: 500 }}
         >
-          Universitas Brawijaya · Fakultas Vokasi · 2024/2025
+          Universitas Brawijaya · Fakultas Vokasi · 2025/2026
         </p>
         <h1
           style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: 'clamp(3rem, 8vw, 6rem)', lineHeight: 1.05, fontWeight: 700 }}
