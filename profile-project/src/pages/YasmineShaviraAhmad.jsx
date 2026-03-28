@@ -6,7 +6,7 @@ const profile = {
   jurusan: 'Teknologi Informasi',
   universitas: 'Universitas Brawijaya',
   domisili: 'Malang, Jawa Timur',
-  image: '/image/profile.png',   
+  image: '/image/yasmine.png',   
   tentang: `Halo! Perkenalkan, saya Yasmine Shavira Ahmad, mahasiswi aktif program studi Teknologi Informasi. 
     Saya punya ketertarikan besar di dunia teknologi, terutama pada hal-hal yang bisa langsung dirasakan manfaatnya oleh orang lain. 
     Oleh karena itu saya suka belajar tentang pengembangan web, analisis data, dan yang paling menarik adalah UI/UX design, karena pada ui/ux saya bisa memahami bagaimana cara untuk menciptakan yang tidak hanya bagus dilihat tapi juga berfungsi dengan baik.
