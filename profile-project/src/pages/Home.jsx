@@ -6,28 +6,31 @@ const members = [
     name: 'Amira Salma Nafisa',
     role: 'Teknologi Informasi',
     kelas: 'T2C',
-    domisili: 'Malang',
+    domisili: 'Malang, Jawa Timur',
     path: '/amira-salma-nafisa',
     accent: '#D4A853',
     tag: 'Ketua Tim',
+    image: '/image-amira/pasfoto.png',
   },
   {
     name: 'Farah Naylul Fauzia',
     role: 'Teknologi Informasi',
     kelas: 'T2C',
-    domisili: 'Blitar',
+    domisili: 'Blitar, Jawa Timur',
     path: '/farah-naylul-fauzia',
     accent: '#C47EB5',
     tag: 'Anggota',
+    image: '/image/profile.png',
   },
   {
     name: 'Yasmine Shavira Ahmad',
     role: 'Teknologi Informasi',
     kelas: 'T2C',
-    domisili: 'Malang',
+    domisili: 'Malang, Jawa Timur',
     path: '/yasmine-shavira-ahmad',
-    accent: '#5BA89A',
+    accent: '#4680ba',
     tag: 'Anggota',
+    image: '/image-yasmine/yasmine.png',
   },
 ];
 
@@ -70,12 +73,25 @@ export default function Home() {
               <div className="h-[3px] w-full" style={{ background: m.accent }} />
               <div className="p-8">
                 <div
-                  className="w-16 h-16 rounded-xl flex items-center justify-center mb-6 text-[#0e0e0e]"
-                  style={{ background: m.accent }}
+                  className="w-16 h-16 rounded-xl overflow-hidden mb-6"
+                  style={{ border: `2px solid ${m.accent}` }}
                 >
-                  <span style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: '1.4rem', fontWeight: 700 }}>
-                    {m.initials}
-                  </span>
+                  {m.image ? (
+                    <img
+                      src={m.image}
+                      alt={m.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div
+                      className="w-full h-full flex items-center justify-center"
+                      style={{ background: m.accent }}
+                    >
+                      <span style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: '1.4rem', fontWeight: 700, color: '#0e0e0e' }}>
+                        {m.initials}
+                      </span>
+                    </div>
+                  )}
                 </div>
                 <span
                   className="text-[10px] tracking-[0.3em] uppercase px-2 py-1 rounded-full"
