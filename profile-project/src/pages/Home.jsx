@@ -127,7 +127,7 @@ export default function Home() {
 
       <footer className="text-center py-8 text-[#444] text-xs tracking-widest border-t border-[#1a1a1a]"
         style={{ fontFamily: 'Outfit, sans-serif' }}>
-        PROJECT-BASED TASK · REACTJS + GITHUB · BRAWIJAYA 2025
+        PROJECT-BASED TASK · REACTJS + GITHUB · BRAWIJAYA 2026
       </footer>
       <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D4A853] to-transparent" />
     </div>
